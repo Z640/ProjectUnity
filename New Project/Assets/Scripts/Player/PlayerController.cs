@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour {
     private Vector3 velocity; //움직이는 속도
     private float move_direction = 0f;
     private bool isGround;
-    private bool isWalk;
-    private bool isRun;
+    public bool isWalk;
+    public bool isRun;
 
     [SerializeField] private Camera cam;
     [SerializeField] private GameObject holder;
