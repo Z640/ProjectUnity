@@ -825,7 +825,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 60
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1245,6 +1245,11 @@ PrefabInstance:
     - target: {fileID: 285558289718516930, guid: ec214f35c0cc67c44a863dfc00c309b1,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 285558289718516930, guid: ec214f35c0cc67c44a863dfc00c309b1,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 328054351033875332, guid: ec214f35c0cc67c44a863dfc00c309b1,
@@ -1783,6 +1788,7 @@ MonoBehaviour:
   Bullet: {fileID: 5913530975661552379, guid: fe6b4f0582bd7a44082a6df5a2bfe175, type: 3}
   Cartridge: {fileID: 1455289364085744908, guid: 2cbca504600f87048ad568c2385930b1,
     type: 3}
+  hitEF: {fileID: 0}
   barrelLocation: {fileID: 1830227725}
   cartridgeExitLocation: {fileID: 986501797}
   BulletPower: 100
